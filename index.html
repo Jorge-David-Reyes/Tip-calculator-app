@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="Splitter logo" />
+  </header>
+  
+  <div class="container">
+
+      <div class="boxCalc">
+          <div class="inputForm">
+              <p>Bill</p>
+              <input type="text" placeholder="0" />
+          </div>
+          <div>
+              <p>Select Tip %</p>
+              <div class="boxButtons">
+                  <button>5%</button>
+                  <button>10%</button>
+                  <button>15%</button>
+                  <button>25%</button>
+                  <button>50%</button>
+                  <input type="text" placeholder="Custom" />
+              </div>
+          </div>
+          <div class="inputForm">
+              <p>Number of People</p>
+              <input type="text" placeholder="0" />
+          </div>
+      </div>
+
+      <div class="boxResult">
+          <div>
+              <div>
+                  <p>Tip Amount</p>
+                  <p>/ person</p>
+              </div>
+              <p>$0.00</p>
+          </div>
+          <div>
+              <div>
+                  <p>Total</p>
+                  <p>/ person</p>
+              </div>
+              <p>$0.00</p>
+          </div>
+          <button>Reset</button>
+      </div>
+  </div>
+</body>
+</html>

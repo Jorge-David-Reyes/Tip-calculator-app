@@ -1,0 +1,90 @@
+
+.boxButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.boxButtons button{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+}
+
+.boxButtons input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+
+    background-color: var(--very-light-grayish-cyan);
+    color: var(--very-dark-cyan);
+}
+
+.boxButtons button:hover {
+    background-color: var(--greenB);
+    color: var(--very-dark-cyan);
+    cursor: pointer;
+}
+.boxButtons button:active {
+    background-color: var(--greenA);
+    color: var(--very-dark-cyan);
+    cursor: pointer;
+}
+
+
+
+
+.inputForm input {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 24px;
+    font-family: 'Space Mono', monospace;
+    text-align: right;
+
+    background-color: var(--very-light-grayish-cyan);
+    color: var(--very-dark-cyan);
+}
+
+.inputForm input:focus, .boxButtons input:focus {
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--greenB);
+    outline: none; /* Anula el contorno predeterminado del navegador */
+}
+
+.inputForm {
+    margin-top: 50px;
+}
+
+/* Anula el margen para todos los .inputForm que no sean el último hijo */
+.inputForm:not(:last-child) {
+    margin-top: 0;
+}
+
+
+p{
+    color: var(--dark-grayish-cyan);
+}
