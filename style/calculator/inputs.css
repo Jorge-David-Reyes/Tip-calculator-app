@@ -1,0 +1,60 @@
+.inputForm input {
+    width: 100%;
+    height: 4.8rem;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    font-size: 2.4rem;
+    font-family: 'Space Mono', monospace;
+    text-align: right;
+
+    background-color: var(--very-light-grayish-cyan);
+    background-image: '../images/icon-person.svg';
+    color: var(--very-dark-cyan);
+}
+
+
+.inputForm input:focus, .boxButtons input:focus {
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: var(--greenB);
+    outline: none;
+}
+
+
+.inputForm p{
+    margin-bottom: 1rem;
+}
+
+
+/* Icon */
+.input-with-icon {
+    position: relative;
+  }
+
+.input-with-icon input {
+    padding-left: 4rem;
+}
+
+.input-icon {
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: cover;
+    
+}
+#iconDollar{
+    width: 12px;
+    height: 17px;
+    background-image: url('../../images/icon-dollar.svg');
+}
+
+
+#iconPerson{
+    width: 14px;
+    height: 17px;
+    background-image: url('../../images/icon-person.svg');
+}

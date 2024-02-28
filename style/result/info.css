@@ -1,0 +1,30 @@
+.boxTitles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 4rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.boxTitles #tipAmount, .boxTitles #total{
+    color: var(--white);
+    margin: 0px;
+}
+
+.boxTitles .personAmount{
+    margin: 0px;
+    color: #7F9D9F;
+}
+
+.boxTitles h1{
+    font-size: 4rem;
+    color: var(--greenB);
+    margin: 0px;
+}

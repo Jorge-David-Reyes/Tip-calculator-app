@@ -1,0 +1,51 @@
+.areaButtons {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.boxButtons button, .boxButtons input {
+    width: 100%;
+    height: 4.8rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    font-size: 2.4rem;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+}
+
+.boxButtons input {
+    background-color: var(--very-light-grayish-cyan);
+    color: var(--very-dark-cyan);
+}
+
+.boxButtons button{
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+}
+
+.boxButtons button:hover {
+    background-color: var(--greenB);
+    color: var(--very-dark-cyan);
+    cursor: pointer;
+}
+.boxButtons button:active {
+    background-color: var(--greenA);
+    color: var(--very-dark-cyan);
+    cursor: pointer;
+}
+
+
+.boxButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+@media screen and (max-width: 376px) {
+    .boxButtons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

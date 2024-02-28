@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 @import url('./containers.css');
-@import url('./buttonCalculator.css');
+@import url('./calculator/IndexCalculator.css');
+@import url('./result/IndexResult.css');
 
 :root {
     --very-dark-cyan: hsl(183, 100%, 15%);
@@ -15,9 +16,8 @@
 
 html {
     box-sizing: border-box;
-    
+    font-size: 50.5%; /* 62.5% = 1 rem = 10px */    
 }
-
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -27,8 +27,11 @@ html {
 body {
     font-family: 'Space Mono', monospace;
     font-weight: 700;
+    font-size: 1.6rem;
+    margin: 0px;
 
-    height: 100vh;
+    min-height: 100vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,6 +41,10 @@ body {
 }
 
 
-header {
-    margin-bottom: 100px;
+.logo {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
+
+
+

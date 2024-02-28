@@ -1,0 +1,6 @@
+@import url('./buttons.css');
+@import url('./inputs.css');
+
+p{
+    color: var(--dark-grayish-cyan);
+}
