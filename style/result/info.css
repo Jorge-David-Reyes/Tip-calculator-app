@@ -13,7 +13,7 @@
     align-items: start;
 }
 
-.boxTitles #tipAmount, .boxTitles #total{
+.boxTitles #tipInfo, .boxTitles #totalInfo{
     color: var(--white);
     margin: 0px;
 }
