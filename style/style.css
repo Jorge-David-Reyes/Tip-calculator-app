@@ -30,13 +30,12 @@ body {
     font-size: 1.6rem;
     margin: 0px;
 
-    min-height: 1440px;
-    width: 1024px;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     background-color: var(--light-grayish-cyan);
 }
