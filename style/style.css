@@ -16,7 +16,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 50.5%; /* 62.5% = 1 rem = 10px */    
+    font-size: 62.5%; /* 62.5% = 1 rem = 10px */    
 }
 *, *:before, *:after {
     box-sizing: inherit;
