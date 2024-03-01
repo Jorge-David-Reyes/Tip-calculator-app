@@ -12,62 +12,60 @@
     <div class="logo">
         <img src="./images/logo.svg" alt="Splitter logo" />
     </div>
-  
-  <div class="container">
-      <div class="boxCalc"> 
-          <div class="inputForm">
-              <p>Bill</p>
-              <div class="input-with-icon">
-                <div id="iconDollar" class="input-icon"></div>
-                <input id="billInput" type="text" placeholder="0">
-              </div>
-          </div>
-          <div class="areaButtons">
-              <p>Select Tip %</p>
-              <div class="boxButtons">
-                  <button value="5">5%</button>
-                  <button value="10">10%</button>
-                  <button value="15">15%</button>
-                  <button value="25">25%</button>
-                  <button value="50">50%</button>
-                  <input id="customInput" type="text" placeholder="Custom" />
-              </div>
-          </div>
-          <div class="inputForm">
-                <div style="display:flex; flex-direction:row; justify-content: space-between;">
+    <div class="container">
+        <div class="boxCalc">
+            <div class="inputForm">
+                <p>Bill</p>
+                <div class="input-with-icon">
+                    <div id="iconDollar" class="input-icon"></div>
+                    <input id="billInput" type="text" placeholder="0" />
+                </div>
+            </div>
+            <div class="areaButtons">
+                <p>Select Tip %</p>
+                <div class="boxButtons">
+                    <button value="5">5%</button>
+                    <button value="10">10%</button>
+                    <button value="15">15%</button>
+                    <button value="25">25%</button>
+                    <button value="50">50%</button>
+                    <input id="customInput" type="text" placeholder="Custom" />
+                </div>
+            </div>
+            <div class="inputForm">
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
                     <p>Number of People</p>
                     <p id="peopleError"></p>
                 </div>
-              <div class="input-with-icon">
-                <div id="iconPerson" class="input-icon"></div>
-                <input id="peopleInput" type="text" placeholder="0">
-              </div>
-          </div>
-      </div>
-
-      <div class="boxResult">
-        <div>
-            <div class="boxTitles">
-                <div class="info">
-                    <p id="tipInfo">Tip Amount</p>
-                    <p class="personAmount">/ person</p>
+                <div class="input-with-icon">
+                    <div id="iconPerson" class="input-icon"></div>
+                    <input id="peopleInput" type="text" placeholder="0" />
                 </div>
-                <h1 id="tipAmount">$0.00</h1>
-            </div>
-            <div class="boxTitles">
-                <div class="info">
-                    <p id="totalInfo">Total</p>
-                    <p class="personAmount">/ person</p>
-                </div>
-                <h1 id="totalAmount">$0.00</h1>
             </div>
         </div>
-        
-        <button disabled id="reset">RESET</button>
-        
-      </div>
-  </div>
-</div>
+
+        <div class="boxResult">
+            <div>
+                <div class="boxTitles">
+                    <div class="info">
+                        <p id="tipInfo">Tip Amount</p>
+                        <p class="personAmount">/ person</p>
+                    </div>
+                    <h1 id="tipAmount">$0.00</h1>
+                </div>
+                <div class="boxTitles">
+                    <div class="info">
+                        <p id="totalInfo">Total</p>
+                        <p class="personAmount">/ person</p>
+                    </div>
+                    <h1 id="totalAmount">$0.00</h1>
+                </div>
+            </div>
+
+            <button disabled id="reset">RESET</button>
+        </div>
+    </div>
+    
 
 <script type="module" src="./js/index.js"></script>
 </body>
