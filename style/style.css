@@ -30,7 +30,8 @@ body {
     font-size: 1.6rem;
     margin: 0px;
 
-    min-height: 100vh;
+    min-height: 1440px;
+    width: 1024px;
 
     display: flex;
     flex-direction: column;
