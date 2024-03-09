@@ -23,7 +23,12 @@
     width: 41.3rem;
     border-radius: 2.5rem;
 
-    padding: 1rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 
     grid-column: 1 / 2;
 }
