@@ -12,8 +12,8 @@
 
 
 .boxResult button:disabled {
-    background-color: hsl(183, 100%, 25%);
-    color: hsl(183, 80%, 25%);
+    background-color: hsl(183, 100%, 20%);
+    color: hsl(183, 100%, 18%);
 }
 
 .boxResult button{

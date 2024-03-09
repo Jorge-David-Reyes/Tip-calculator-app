@@ -2,7 +2,7 @@
     width: 100%;
     height: 4.8rem;
     padding: 1rem;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
 
     border: none;
     border-radius: 0.5rem;
@@ -11,7 +11,7 @@
     font-family: 'Space Mono', monospace;
     text-align: right;
 
-    background-color: var(--very-light-grayish-cyan);
+    background-color: #F3F9FA;
     background-image: '../images/icon-person.svg';
     color: var(--very-dark-cyan);
 }
@@ -30,7 +30,7 @@
 
 
 .inputForm p{
-    margin-top: 0px;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -64,3 +64,4 @@
     height: 17px;
     background-image: url('../../images/icon-person.svg');
 }
+
