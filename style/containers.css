@@ -1,12 +1,13 @@
 .container {
     padding: 3.2rem;
-    width: min(92rem, 100%);
+    width: 92rem;
+    height: 48.1rem;
 
     border-radius: 2.5rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 4.8rem;
+    column-gap: 3rem;
 
     background-color: var(--white);
 
@@ -18,9 +19,11 @@
 .boxCalc{
     background-color: var(--white);
     /* width: 41.3rem; */
-    height: min(100%, 41.7rem);
-    width: min(100%, 41.3rem);
+    height: 41.7rem;
+    width: 41.3rem;
     border-radius: 2.5rem;
+
+    padding: 1rem;
 
     grid-column: 1 / 2;
 }
@@ -30,9 +33,9 @@
 
     background-color: var(--very-dark-cyan);
     /* width: 41.3rem; */
-    height: min(100%, 41.7rem);
-    width: min(100%, 41.3rem);
-    border-radius: 2.5rem;
+    height: 41.7rem;
+    width: 41.3rem;
+    border-radius: 1.5rem;
 
     padding: 4rem;
 
@@ -45,13 +48,22 @@
 
 
 @media screen and (max-width: 376px) {
+    .logo{
+        margin-top: 10rem;
+    }
     .container {
         grid-template-columns: 1fr;
         row-gap: 4.8rem;
+
+        width: min(92rem, 100%);
+        height: min(48.1rem, 100%);
     }
 
     .boxCalc {
         margin-bottom: 0rem;
+
+        height: min(41.7rem, 100%);
+        width: min(41.3rem, 100%);
     }
 
     .boxResult {
@@ -59,5 +71,8 @@
         grid-row: 2;
         padding: 3rem;
         justify-content: start;
+
+        height: min(41.7rem, 100%);
+        width: min(41.3rem, 100%);
     }
 }

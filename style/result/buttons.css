@@ -14,6 +14,7 @@
 .boxResult button:disabled {
     background-color: #0D686D;
     color: var(--very-dark-cyan);
+    opacity: 0.5; 
 }
 
 .boxResult button{

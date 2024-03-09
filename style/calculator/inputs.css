@@ -15,6 +15,10 @@
     color: var(--very-dark-cyan);
 }
 
+.inputForm input:empty::placeholder {
+    opacity: 0.5; 
+}
+
 
 .inputForm input:focus, .boxButtons input:focus {
     border-style: solid;
